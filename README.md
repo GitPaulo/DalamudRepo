@@ -1,6 +1,8 @@
 # DalamudRepo
 Generated repo for my FFXIV Dalamud plugins
 
+### `https://raw.githubusercontent.com/GitPaulo/DalamudRepo/refs/heads/main/pluginmaster.json`
+
 ## Plugins
 
 | Name | Description | Version | Last Updated |
