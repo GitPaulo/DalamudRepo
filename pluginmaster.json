@@ -1,0 +1,52 @@
+[
+    {
+        "Author": "GitPaulo",
+        "Name": "Combat Headgear",
+        "Description": "Toggle headgear visibility in and out of combat.",
+        "InternalName": "CombatHeadgear",
+        "AssemblyVersion": "2.0.0",
+        "RepoUrl": "https://github.com/GitPaulo/CombatHeadgear",
+        "IconUrl": "https://raw.githubusercontent.com/GitPaulo/CombatHeadgear/master/Data/icon.png",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "dalamud",
+            "headgear",
+            "visibility",
+            "combat",
+            "GitPaulo",
+            "artin"
+        ],
+        "DalamudApiLevel": 10,
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "DownloadLinkInstall": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
+        "DownloadLinkTesting": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
+        "DownloadLinkUpdate": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
+        "LastUpdate": "2024-11-13"
+    },
+    {
+        "Author": "GitPaulo",
+        "Name": "Right Click Search Info",
+        "Description": "Rich click a player and view their search info and more.",
+        "InternalName": "RightClickSearchInfo",
+        "AssemblyVersion": "2.0.0",
+        "RepoUrl": "https://github.com/GitPaulo/RightClickSearchInfo",
+        "IconUrl": "https://raw.githubusercontent.com/GitPaulo/RightClickSearchInfo/master/Data/icon.png",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "dalamud",
+            "search",
+            "info",
+            "lodestone",
+            "GitPaulo",
+            "artin"
+        ],
+        "DalamudApiLevel": 10,
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "DownloadLinkInstall": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
+        "DownloadLinkTesting": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
+        "DownloadLinkUpdate": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
+        "LastUpdate": "2024-11-13"
+    }
+]
