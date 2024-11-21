@@ -47,8 +47,8 @@ def fetch_repo_json(repo):
         print(f"Error parsing JSON for {repo_name}: {e}")
         return None
     
-    # Add last update time (ISO format)
-    manifest['LastUpdate'] = strftime("%Y-%m-%d", gmtime(time()))
+    # Add last update time (ISO format) - use _ to bypass manifest validation
+    manifest['_LastUpdate'] = strftime("%Y-%m-%d", gmtime(time()))
     
     return manifest
 
@@ -61,7 +61,7 @@ def update_readme_with_table(master_manifest):
     table = "| Name | Description | Version | Last Updated |\n"
     table += "|------|-------------|---------|--------------|\n"
     for plugin in master_manifest:
-        table += f"| {plugin['Name']} | {plugin['Description']} | {plugin['AssemblyVersion']} | {plugin['LastUpdate']} |\n"
+        table += f"| {plugin['Name']} | {plugin['Description']} | {plugin['AssemblyVersion']} | {plugin['_LastUpdate']} |\n"
 
     # Load README file and update the ## Plugins section
     with open(README_FILE, 'r') as f:
