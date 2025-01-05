@@ -55,13 +55,14 @@ def fetch_repo_json(repo):
 def write_master_json(master):
     with open('pluginmaster.json', 'w') as f:
         json.dump(master, f, indent=4)
-
 def update_readme_with_table(master_manifest):
     # Generate the markdown table for plugins
     table = "| Name | Description | Version | Last Updated |\n"
     table += "|------|-------------|---------|--------------|\n"
     for plugin in master_manifest:
-        table += f"| {plugin['Name']} | {plugin['Description']} | {plugin['AssemblyVersion']} | {plugin['_LastUpdate']} |\n"
+        # Add a markdown link to the repository name
+        repo_url = f'https://github.com/{GITHUB_USERNAME}/{plugin["Name"]}'
+        table += f"| [{plugin['Name']}]({repo_url}) | {plugin['Description']} | {plugin['AssemblyVersion']} | {plugin['_LastUpdate']} |\n"
 
     # Load README file and update the ## Plugins section
     with open(README_FILE, 'r') as f:
