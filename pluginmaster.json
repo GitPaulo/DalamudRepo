@@ -22,7 +22,7 @@
         "DownloadLinkInstall": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
         "DownloadLinkTesting": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
         "DownloadLinkUpdate": "https://github.com/GitPaulo/CombatHeadgear/releases/download/2.0.0/CombatHeadgearPlugin.zip",
-        "_LastUpdate": "2024-11-21"
+        "_LastUpdate": "2025-01-05"
     },
     {
         "Author": "GitPaulo",
@@ -47,7 +47,7 @@
         "DownloadLinkInstall": "https://github.com/GitPaulo/FFXIVCollectRankings/releases/download/1.0.0/FFXIVCollectRankings.zip",
         "DownloadLinkTesting": "https://github.com/GitPaulo/FFXIVCollectRankings/releases/download/1.0.0/FFXIVCollectRankings.zip",
         "DownloadLinkUpdate": "https://github.com/GitPaulo/FFXIVCollectRankings/releases/download/1.0.0/FFXIVCollectRankings.zip",
-        "_LastUpdate": "2024-11-21"
+        "_LastUpdate": "2025-01-05"
     },
     {
         "Author": "GitPaulo",
@@ -72,6 +72,6 @@
         "DownloadLinkInstall": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
         "DownloadLinkTesting": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
         "DownloadLinkUpdate": "https://github.com/GitPaulo/RightClickSearchInfo/releases/download/2.0.0/RightClickSearchInfo.zip",
-        "_LastUpdate": "2024-11-21"
+        "_LastUpdate": "2025-01-05"
     }
 ]
