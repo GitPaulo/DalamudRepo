@@ -62,7 +62,7 @@ def update_readme_with_table(master_manifest):
     table += "|------|-------------|---------|--------------|\n"
     for plugin in master_manifest:
         # Add a markdown link to the repository name
-        repo_url = f'https://github.com/{GITHUB_USERNAME}/{plugin["Name"]}'
+        repo_url = f'https://github.com/{GITHUB_USERNAME}/{plugin['Repository']}'
         table += f"| [{plugin['Name']}]({repo_url}) | {plugin['Description']} | {plugin['AssemblyVersion']} | {plugin['_LastUpdate']} |\n"
 
     # Load README file and update the ## Plugins section
