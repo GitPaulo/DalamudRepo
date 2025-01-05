@@ -55,6 +55,7 @@ def fetch_repo_json(repo):
 def write_master_json(master):
     with open('pluginmaster.json', 'w') as f:
         json.dump(master, f, indent=4)
+        
 def update_readme_with_table(master_manifest):
     # Generate the markdown table for plugins
     table = "| Name | Description | Version | Last Updated |\n"
