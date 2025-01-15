@@ -9,7 +9,7 @@ Generated repo for my [FFXIV Dalamud](https://github.com/goatcorp/Dalamud) plugi
 
 | Name | Description | Version | Last Updated |
 |------|-------------|---------|--------------|
-| [Combat Headgear](https://github.com/GitPaulo/CombatHeadgear) | Toggle headgear visibility in and out of combat. | 2.0.0 | 2025-01-10 |
-| [FFXIVCollect Rankings](https://github.com/GitPaulo/FFXIVCollectRankings) | Dalamud plugin that displays FFXIVCollect rankings as nameplates - toggleable. | 1.0.0 | 2025-01-10 |
-| [Right Click Search Info](https://github.com/GitPaulo/RightClickSearchInfo) | Rich click a player and view their search info and more. | 2.0.0 | 2025-01-10 |
+| [CombatHeadgear](https://github.com/GitPaulo/CombatHeadgear) | Toggle headgear visibility in and out of combat. | 3.0.0 | 2025-01-15 |
+| [FFXIVCollectRankings](https://github.com/GitPaulo/FFXIVCollectRankings) | Dalamud plugin that displays FFXIVCollect rankings as nameplates - toggleable. | 2.0.0 | 2025-01-15 |
+| [RightClickSearchInfo](https://github.com/GitPaulo/RightClickSearchInfo) | Rich click a player and view their search info and more. | 3.0.0 | 2025-01-15 |
 
