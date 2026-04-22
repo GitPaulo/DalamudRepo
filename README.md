@@ -1,9 +1,11 @@
 # DalamudRepo
-Generated repo for my [FFXIV Dalamud](https://github.com/goatcorp/Dalamud) plugins.
+Master repo for my [FFXIV Dalamud](https://github.com/goatcorp/Dalamud) plugins.
 
 <img src="https://github.com/user-attachments/assets/ea155bfc-4ce6-4026-a6ab-3bd5a669cd44" alt="image" width="200" />
 
-### `https://raw.githubusercontent.com/GitPaulo/DalamudRepo/refs/heads/main/pluginmaster.json`
+```json
+https://raw.githubusercontent.com/GitPaulo/DalamudRepo/refs/heads/main/pluginmaster.json
+```
 
 ## Plugins
 
